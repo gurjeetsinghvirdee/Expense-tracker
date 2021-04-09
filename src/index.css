@@ -4,5 +4,6 @@
 }
 
 body {
-    
+    background: url(./assets/money.png);
+    background-size: cover;
 }
