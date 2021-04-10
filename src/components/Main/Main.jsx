@@ -3,6 +3,7 @@ import { Card, CardHeader, CardContent, Typography, Grid, Divider } from '@mater
 import useStyles from './styles';
 import Form from './Form/Form';
 import List from './List/List';
+import InfoCard from '../InfoCard';
 
 function Main() {
     const classes = useStyles();
@@ -13,7 +14,7 @@ function Main() {
             <CardContent>
                 <Typography align="center" variant="h5">Total balance $160</Typography>
                 <Typography variant="subtitle1" style={{ lineHeight: '1.5em', marginTop: '20px' }}>
-                    {/* {InfoCard} */}
+                    <InfoCard />
                     Try saying: Add Income for 160$ in Category Salary for Monday...
                 </Typography>
                 <Divider />
