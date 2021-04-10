@@ -1,5 +1,5 @@
-const incomeColors = ['#123123', '#154731', '#165f40', '#16784f', '#14915f', '#10ac6e', '#0bc77e', '#04e38d'];
-const expenseColors = ['#ffff99', '#ffff66', '#f8ed62', '#ffff4c', '#ffff19', '#e5e500', '#cccc00', '#dab600' ];
+const incomeColors = ['#123123', '#154731', '#165f40', '#16784f', '#14915f', '#10ac6e', '#0bc77e' ];
+const expenseColors = ['#ffe4b2', '#ffd27f', '#ffc04c', '#ffa500', '#e59400', '#bda800', '#996300' ];
 
 export const incomeCategories = [
   { type: 'Business', amount: 0, color: incomeColors[0] },
@@ -7,9 +7,8 @@ export const incomeCategories = [
   { type: 'Extra income', amount: 0, color: incomeColors[2] },
   { type: 'Deposits', amount: 0, color: incomeColors[3] },
   { type: 'Rental income', amount: 0, color: incomeColors[4] },
-  { type: 'Gifts', amount: 0, color: incomeColors[5] },
-  { type: 'Salary', amount: 0, color: incomeColors[6] },
-  { type: 'Savings', amount: 0, color: incomeColors[7] },
+  { type: 'Salary', amount: 0, color: incomeColors[5] },
+  { type: 'Savings', amount: 0, color: incomeColors[6] },
 ];
 
 export const expenseCategories = [
@@ -20,7 +19,6 @@ export const expenseCategories = [
   { type: 'Food', amount: 0, color: expenseColors[4] },
   { type: 'Shopping', amount: 0, color: expenseColors[5] },
   { type: 'House', amount: 0, color: expenseColors[6] },
-  { type: 'Entertainment', amount: 0, color: expenseColors[7] },
 ];
 
 export const resetCategories = () => {
