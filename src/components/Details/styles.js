@@ -5,7 +5,7 @@ export default makeStyles(() => ({
         borderBottom: '10px solid rgba(0, 255, 0, 0.5)',
     },
     expense: {
-        borderBottom: '10px solid rgba(255, 235, 59, 0.5)',
+        borderBottom: '10px solid rgba(255, 165, 0, 0.5)',
     },
 
 }))
